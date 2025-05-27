@@ -100,7 +100,10 @@ class MobiusStrip:
 
 ## Run the Code by Providing Sample inputs
 if __name__ == "__main__":
-    mobius = MobiusStrip(R=2.0, w=1.0, n=50)  # Create a Mobius strip
+    R = float(input("Enter Radius :"))
+    w = float(input("Enter Width :"))
+    n = int(input("Enter Resolution :"))
+    mobius = MobiusStrip(R, w, n)  # Create a Mobius strip
     mobius.generate_points()  # Generate 3D points
     print(f"Surface area: {mobius.calculate_surface_area():.2f}")
     print(f"Edge length: {mobius.calculate_edge_length():.2f}")
