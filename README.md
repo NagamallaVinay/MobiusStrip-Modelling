@@ -1,7 +1,7 @@
 # MobiusStrip-Modelling
 Python script that models a Mobius strip using parametric equations and computes key geometric properties.
 
-1. Requirements
+1. Requirements  :
       Define a MobiusStrip class that:
           Accepts:
                 Radius R (distance from the center to the strip)
@@ -13,7 +13,7 @@ Python script that models a Mobius strip using parametric equations and computes
                 Edge length (numerically along the boundary)
 
 
-2. Parametric Equation of Mobius Strip
+2. Parametric Equation of Mobius Strip  :
     x(u,v)=(R+v⋅cos⁡(u2))⋅cos⁡(u)
     y(u,v)=(R+v⋅cos⁡(u2))⋅sin⁡(u)
     z(u,v)=v⋅sin⁡(u2)
@@ -21,7 +21,7 @@ Python script that models a Mobius strip using parametric equations and computes
         => u∈[0,2π]
         => v∈[−w/2,w/2]
 
-3. Deliverables
+3. Deliverables  :
     Python script (clean, modular, commented).
     3D plot or screenshot (if you include visualization).
 
