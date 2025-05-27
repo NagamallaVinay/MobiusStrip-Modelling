@@ -32,5 +32,6 @@ This assignment tests:
          3) Visualization
          4) Code clarity
 
+Note: For better Visualization use Collab 
 
 
